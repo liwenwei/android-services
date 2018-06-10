@@ -20,4 +20,40 @@
         android:text="Notification"
         android:onClick="startMyNotification"/>
 
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="bind service"></Button>
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="unbind service"></Button>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="start service1"></Button>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="stop service1"></Button>
+
+    <Button
+        android:id="@+id/btnStartFore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="start foreground service"></Button>
+
+    <Button
+        android:id="@+id/btnStopFore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="stop foreground service"></Button>
+
 </LinearLayout>
